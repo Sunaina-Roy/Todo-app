@@ -7,7 +7,6 @@ class TaskData extends ChangeNotifier {
     Task(name: 'Study'),
     Task(name: 'Exercise for 15 minutes'),
     Task(name: 'Sleep for 7 hours'),
-
   ];
   UnmodifiableListView<Task> get tasks {
     return UnmodifiableListView(_tasks);
